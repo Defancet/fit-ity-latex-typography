@@ -1,0 +1,42 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage[text={17cm, 24cm}, left=2cm, top=3cm]{geometry}
+\usepackage[utf8]{inputenc} 
+\usepackage[czech]{babel}
+\usepackage[hidelinks]{hyperref}
+\usepackage{times}
+\usepackage{url}
+
+\begin{document}
+    \begin{titlepage}
+        \begin{center}
+            \Huge \textsc{Vysoké učení technické v~Brně} \\
+            \huge \textsc{Fakulta informačních technologií} \\
+            \vspace{\stretch{0.382}}
+            \LARGE Typografie a publikování\,--\,4. projekt \\
+            \Huge Umělá inteligence v testování softwaru \\
+            \vspace{\stretch{0.618}}
+            {\Large \today \hfill Maksim Kalutski}
+        \end{center}
+    \end{titlepage}
+
+\section{Úvod}
+Proces vývoje softwaru je v zásadě složitý a náchylný k chybám. Umělá inteligence (UI) se stává silným nástrojem pro zefektivnění testování softwaru, zvyšuje efektivitu, přesnost a nakonec kvalitu softwarových produktů. Techniky založené na UI mohou automatizovat opakující se úkoly, identifikovat složité vzory v testovacích datech a generovat nové testovací případy, které by mohly uniknout lidským testerům.
+
+\section{Generování testovacích případů}
+Jednou z klíčových aplikací UI je generování testovacích případů. Algoritmy UI mohou analyzovat existující testovací případy a strukturu kódu, aby navrhly nové, potenciálně účinnější testovací scénáře.~\cite{MonographMitchellOlsthoorn2022} Toto rozšíření pomáhá zvýšit pokrytí testů a odhalit chyby, které mohly být přehlédnuty při tradičním ručním testování.~\cite{SerialPublicationAnjanaPerera2020} Navíc techniky zpracování přirozeného jazyka (NLP), podmnožina UI, mohou analyzovat dokumenty s požadavky a automaticky vytvářet testovací případy, čímž zajišťují soulad mezi specifikacemi a testovacími postupy.~\cite{ElectronicDocumentJacinthPaul2023}
+
+\section{Identifikace anomálií a vzorů}
+Další významnou výhodou testování řízeného UI je schopnost identifikovat anomálie a vzory ve velkých datech.~\cite{ThesesMikaelMäkelä2019} To může být obzvláště užitečné při výkonnostním testování, kde modely UI mohou analyzovat metriky jako dobu odezvy a využití zdrojů, aby předpověděly úzká místa a optimalizovaly výkon softwaru.~\cite{ArticleKhloudAlJallad2020} Analýza chybových zpráv a sledovačů problémů pomocí UI může také identifikovat opakující se nebo kritické defekty, což poskytuje vhledy pro cílená zlepšení.~\cite{ElectronicDocumentMarwanHaddad2023}
+
+\section{Výzvy při implementaci}
+Nicméně implementace UI v testování softwaru přináší výzvy. Dostupnost vysoce kvalitních trénovacích dat je nezbytná pro stavbu účinných modelů UI. Organizace mohou potřebovat investovat do pečlivého sběru a přípravy dat.~\cite{MonographNikolayMorozov2024} Navíc interpretace výsledků generovaných algoritmy UI může vyžadovat specializovanou odbornost. Pečlivý návrh modelů vysvětlitelné UI se stává zásadní pro zvýšení transparentnosti a důvěry v testovací proces.~\cite{ArticleVikasHassija2023}
+
+\section{Závěr}
+Pro maximalizaci výhod UI v testování softwaru je nezbytný strategický a integrovaný přístup. Klíčové jsou spolupracující týmy s odborností na testování i UI.~\cite{ElectronicDocumentKathyAlfadel} Mezi nejlepší postupy patří použití UI k doplnění lidského úsudku spíše než k úplnému nahrazení ručního testování. Kontinuální hodnocení a iterativní zlepšování modelů UI zajišťuje, že se přizpůsobí měnícím se potřebám softwaru a testování.~\cite{ThesesCharlesCollins2023}
+
+\newpage
+
+\bibliographystyle{czechiso}
+\bibliography{references}
+
+\end{document}
