@@ -29,3 +29,8 @@ Includes typesetting for detailed tables, formatted algorithms, and both vector 
 ### 4. Bibliographic Citations Using BibTeX and ČSN ISO 690
 
 Demonstrates the use of BibTeX for managing bibliographic citations according to the ČSN ISO 690 standard.
+
+### 5. Beamer Presentation for Data Structures
+
+Provides a LaTeX-based Beamer presentation introducing the stack data structure with detailed explanations and visual
+aids.
